@@ -33,9 +33,10 @@ public class AbstractShapes {
    public static void main(String[] args)
    {
        Triangle t = new Triangle();
-       t.numberOfSides();
+       
       Rectangle r = new Rectangle();
       r.numberOfSides();
+       t.numberOfSides();
       Hexagon h = new Hexagon();
       h.numberOfSides();   
 
